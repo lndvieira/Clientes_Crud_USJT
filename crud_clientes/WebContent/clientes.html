@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>CRUD de Clientes</title>
+</head>
+<body>
+	<form method="post" action="ClientesCrud">
+		<!-- ID: -->
+		<label for="id_cliente">ID:</label>
+		<input type="text" name="idCliente" id="id_cliente" placeholder="Digite o ID do cliente">
+		<br><br>
+		
+		<!-- Nome: -->
+		<label for="nome_cliente">Nome:</label>
+		<input type="text" name="nomeCliente" id="nome_cliente" placeholder="Digite o Nome do cliente">
+		<br><br>
+		
+		<!-- Telefone: -->
+		<label for="fone_cliente">Telefone:</label>
+		<input type="tel" name="foneCliente" id="fone_cliente" placeholder="Digite o Telefone do cliente">
+		<br><br>
+		
+		<!-- E-mail: -->
+		<label for="email_cliente">E-mail:</label>
+		<input type="email" name="emailCliente" id="email_cliente" placeholder="Digite o E-mail do cliente">
+		<br><br>
+		
+		<!-- Ações -->
+		<input type="submit" name="oQueFazer" value="Cadastrar">
+		<input type="submit" name="oQueFazer" value="Consultar">
+		<input type="submit" name="oQueFazer" value="Remover">
+		<input type="submit" name="oQueFazer" value="Atualizar">
+	</form>
+</body>
+</html>
